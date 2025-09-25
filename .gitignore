@@ -1,0 +1,17 @@
+# Ignorar ambiente virtual
+venv/
+
+# Arquivos do VS Code
+.vscode/
+
+# Arquivos __pycache__
+__pycache__/
+*.pyc
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Dados grandes (se houver)
+*.csv
+*.gz

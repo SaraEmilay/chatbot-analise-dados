@@ -7,11 +7,11 @@ from app.formatter import to_text_insight
 st.title("Chatbot de Análise de Dados")
 
 # ---------- Upload do dataset ----------
-uploaded_file = st.file_uploader("Envie seu arquivo train.gz", type=["gz"])
+uploaded_file = st.file_uploader("Envie seu arquivo credit_train.csv", type=["csv"])
 
 if uploaded_file is not None:
-    # Ler arquivo enviado
-    df = pd.read_csv(BytesIO(uploaded_file.read()), compression="gzip")
+    # Ler CSV direto
+    df = pd.read_csv(uploaded_file)
 
     # ---------- Preprocessamento ----------
     numeric_cols = df.select_dtypes(include=['int64', 'float64']).columns
@@ -71,4 +71,4 @@ if uploaded_file is not None:
         except Exception as e:
             st.error(f"Erro ao gerar resultado ou insight: {e}")
 else:
-    st.info("Envie um arquivo train.gz para começar.")
+    st.info("Envie um arquivo credit_train.csv para começar.")

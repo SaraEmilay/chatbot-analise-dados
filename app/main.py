@@ -5,7 +5,7 @@ import pandas as pd
 from app.formatter import to_text_insight
 
 # Imports locais
-from app.nl_to_sql import run_pandas_query  # Substituído nl_to_sql por nl_to_pandas
+from app.nl_to_sql import run_pandas_query  
 
 
 # -----------------------
