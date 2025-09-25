@@ -1,5 +1,5 @@
 # Chatbot de Análise de Dados
-
+ (link do arquivo de video funcionando no google drive: https://drive.google.com/file/d/1kLreNXW2TpQCky-cc_eYyA5rhQESblEq/view?usp=sharing )
 Este projeto é um **chatbot de análise de dados** que permite fazer perguntas em linguagem natural sobre um dataset e obter respostas em **código Pandas**, resultado e insights.
 
 O chatbot utiliza:
@@ -48,7 +48,7 @@ Prévia dos dados (se aplicável)
 
 A pasta venv/ não é enviada ao GitHub.
 
-Dataset de exemplo: credit_train.csv.
+Dataset de exemplo: credit_train.csv. (link do arquivo no google drive: https://drive.google.com/drive/folders/1lr_Ooi4XROpp8XPwESlpsLyFkLkY8IL7?usp=sharing)
 
 Se desejar, use seu próprio CSV, mas certifique-se de que as colunas estejam consistentes com as esperadas pelo chatbot (REF_DATE, TARGET, VAR1… etc.).
 
